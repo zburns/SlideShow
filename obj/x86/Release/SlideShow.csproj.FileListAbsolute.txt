@@ -2,7 +2,6 @@ C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\R
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\Release\SlideShow.csproj.ResolveComReference.cache
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\bin\x86\Release\SlideShow.exe
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\bin\x86\Release\SlideShow.pdb
-C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\Release\SlideShow.csprojResolveAssemblyReference.cache
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\Release\SlideShow.Form1.resources
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\Release\SlideShow.Properties.Resources.resources
 C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\x86\Release\SlideShow.csproj.GenerateResource.Cache

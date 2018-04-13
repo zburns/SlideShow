@@ -48,7 +48,7 @@ namespace SlideShow
             if (foldertoshow != null)
             {
                 pictureBox.Dock = DockStyle.Fill;
-                files = getFiles(foldertoshow, "*.gif|*.jpg|*.png|*.bmp", System.IO.SearchOption.TopDirectoryOnly);
+                files = getFiles(foldertoshow, "*.gif|*.jpg|*.jpeg|*.png|*.bmp", System.IO.SearchOption.TopDirectoryOnly);
                 
 
                 this.WindowState = FormWindowState.Maximized;
