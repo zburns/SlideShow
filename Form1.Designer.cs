@@ -38,6 +38,7 @@
             this.buttonStart = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -104,7 +105,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(202, 79);
+            this.label4.Location = new System.Drawing.Point(187, 90);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(184, 13);
             this.label4.TabIndex = 8;
@@ -114,7 +115,7 @@
             // 
             this.buttonStart.Location = new System.Drawing.Point(414, 73);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(187, 23);
+            this.buttonStart.Size = new System.Drawing.Size(187, 39);
             this.buttonStart.TabIndex = 9;
             this.buttonStart.Text = "&Start";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -124,7 +125,7 @@
             // 
             this.pictureBox.BackColor = System.Drawing.Color.Black;
             this.pictureBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox.Location = new System.Drawing.Point(0, 99);
+            this.pictureBox.Location = new System.Drawing.Point(0, 118);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(612, 10);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -134,6 +135,8 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Location = new System.Drawing.Point(16, 76);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(125, 17);
@@ -141,11 +144,24 @@
             this.checkBox2.Text = "&Loop Photos Forever";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Checked = true;
+            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox3.Location = new System.Drawing.Point(16, 95);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(115, 17);
+            this.checkBox3.TabIndex = 13;
+            this.checkBox3.Text = "&Iterate Sub-Folders";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 109);
+            this.ClientSize = new System.Drawing.Size(612, 128);
+            this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.label4);
@@ -181,6 +197,7 @@
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
     }
 }
 

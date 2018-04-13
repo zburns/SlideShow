@@ -48,7 +48,10 @@ namespace SlideShow
             if (foldertoshow != null)
             {
                 pictureBox.Dock = DockStyle.Fill;
-                files = getFiles(foldertoshow, "*.gif|*.jpg|*.jpeg|*.png|*.bmp", System.IO.SearchOption.TopDirectoryOnly);
+                if (checkBox3.Checked)
+                    files = getFiles(foldertoshow, "*.gif|*.jpg|*.jpeg|*.png|*.bmp", System.IO.SearchOption.AllDirectories);
+                else
+                    files = getFiles(foldertoshow, "*.gif|*.jpg|*.jpeg|*.png|*.bmp", System.IO.SearchOption.TopDirectoryOnly);
                 
 
                 this.WindowState = FormWindowState.Maximized;
@@ -63,7 +66,10 @@ namespace SlideShow
                 {
                     if (checkBox1.Checked)
                     {
-                        music = getFiles(foldertoshow, "*.mp3", System.IO.SearchOption.TopDirectoryOnly);
+                        if (checkBox3.Checked)
+                            music = getFiles(foldertoshow, "*.mp3", System.IO.SearchOption.AllDirectories);
+                        else
+                            music = getFiles(foldertoshow, "*.mp3", System.IO.SearchOption.TopDirectoryOnly);
                         if (music.Length > 0)
                         {
                             //play music
