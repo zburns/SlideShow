@@ -1,0 +1,2 @@
+C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\Debug\Interop.WMPLib.dll
+C:\Users\Zachary Burns\Documents\Visual Studio 2015\Projects\SlideShow\obj\Debug\SlideShow.csproj.ResolveComReference.cache
